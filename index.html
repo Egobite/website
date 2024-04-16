@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+   
+    <style>
+        /* COMMON CSS SECTION */
+  * {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	font-family: Roboto, sans-serif, arial;
+}
+html, body 
+	{
+	font-size: 14px;
+	font-weight: 400;
+	background: #fff;
+	color: black;
+}
+.container {
+	width: 1340px;
+	margin: 0px auto;
+	display: table;
+    background-color: rgba(255, 192, 203, 0.842);
+    
+}
+.width-33 {
+	width: 33%;
+	float: left;
+	color: black;
+}
+.width-333 {
+	width: 33%;
+	float: left;
+	color: white;
+}
+.width-66 {
+	width: 66%;
+	float: left;
+    color: black;
+}
+/* /MENU SECTION/ */
+.main-panel {
+	width: 100%;
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	height: 100vh;
+}
+
+.logo {
+	font-size: 40px;
+	font-weight: 600;
+}
+.col{
+    color: rgb(41, 128, 0);
+}
+
+.span-col {
+	color: #ffbf35;
+}
+
+nav {
+	float: right;
+}
+
+nav a {
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 500;
+	margin-left: 20px;
+	color: black;
+}
+/* /Main BANNER/ */
+.width-50 {
+	float: left;
+	width: 47%;
+}
+.banner-section {
+	width: 100%;
+	float: left;
+	margin-top: 25vh;
+    margin-left: 50px;
+    
+}
+.banner-section h1 {
+	font-size: 48px;
+	margin-top: 10px;
+	font-weight: bolder;
+}
+.banner-section h2 {
+	font-size: 20px;
+	line-height: 25px;
+	margin-top: 10px;
+	font-weight: 400;
+    
+}
+.banner-section a {
+	float: left;
+	text-decoration: none;
+	font-size: 18px;
+	margin-top: 20px;
+	border-radius: 50%;
+	text-align: center;
+	border: 2px solid black;
+	color: black;
+	margin-left: 10px;
+	height: 50px;
+	width: 50px;
+	line-height: 50px;
+}
+/* /Main BANNER IMAGE/ */
+.main-panel img {
+	margin-top: 10%;
+	width: 100%;
+	margin-left: 10%;
+}
+.btn2{
+    color: white;
+    margin-top: 20px;
+    padding: 15px 20px;
+    font-size:14px;
+    border: none;
+    background-color: black;
+    cursor: pointer;
+    width: 200px;
+    margin-left: 50px;
+    
+  }
+  .btn2:hover{
+    background-color: rgb(41, 128, 0);
+  }
+.btn{
+    color: white;
+    margin-top: 20px;
+    padding: 15px 20px;
+    font-size:14px;
+    border: none;
+    background-color: black;
+    cursor: pointer;
+    width: 200px;
+    
+    
+  }
+  .btn:hover{
+    background-color: rgb(41, 128, 0);
+  }
+  /* /ABOUT US SECTION/ */
+.main-section {
+	width: 100%;
+	float: left;
+	padding: 110px 0px 110px 0px;
+}
+.width-100 {
+	width: 100%;
+	float: left;
+}
+.heading-text {
+	width: 100%;
+	float: left;
+	font-size: 35px;
+	text-align: center;
+	margin-bottom: 50px;
+	color: black;
+}
+.about-me {
+	width: 100%;
+	float: left;
+	padding: 20px;
+}
+.about-me p {
+	font-size: 16px;
+	margin-top: 15px;
+	line-height: 27px;
+}
+.service{
+    background: #101010;
+    width: 100px;
+    padding: 100px 0px;
+}
+.title h2{
+color: white;
+font-size: 75px;
+width: 1130px;
+margin: 30px auto;
+text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: white;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card img{
+    font-size:50px ;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #ffcc00;   
+}
+
+.pra{
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.services{
+	text-align: center;
+	
+}
+
+.services h1{
+	font-size: 40px;
+}
+
+.card img{
+	margin-left: 80px;
+}
+	
+section.services .card-grid{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	column-gap: 8rem;
+}
+.foot{
+	padding: 0;
+	margin: 0;
+	min-height: 100vh;
+	display: flex;
+	align-items: flex-end;
+  }
+  footer {
+	background-color: #121315;
+	color: #a7a7a7;
+	font-size: 16px;
+    min-height:100px;
+    width:100%;
+  }
+  footer * {
+	font-family: “Poppins”, sans-serif;
+	box-sizing: border-box;
+	border: none;
+	outline: none;
+  }
+.row {
+  padding: 1em 1em;
+}
+.row.primary {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 2fr;
+  align-items: stretch;
+}	
+footer {
+	background-color: #121315;
+	color: #a7a7a7;
+	font-size: 16px;
+	min-height:100px;
+	width:100%;
+	}
+footer * {
+    font-family: “Poppins”, sans-serif;
+	box-sizing: border-box;
+	border: none;
+	outline: none;
+}	
+.row {
+	padding: 1em 1em;
+}
+.row.primary {
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr 2fr;
+	align-items: stretch;
+}	
+
+.column {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding: 0 1em;
+	min-height: 15em;
+  }
+
+  .about p {
+	text-align: justify;
+	line-height: 2;
+	margin: 0;
+  }
+  h3{
+	font-size: 25px;
+  color: white;
+  }
+  .h3{
+    font-size: 25px;
+  color: black;
+  }
+  ul {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	padding: 0;
+	margin: 0;
+	}
+	li:not(:first-child) {
+     margin-top: 0.8em;
+	}
+	ul li a {
+	color: #a7a7a7;
+	text-decoration: none;
+	}
+	ul li a:hover {
+	color:#2a8ded;
+	}
+	input,
+	button {
+	font-size: 1em;
+	padding: 1em;
+	width: 80%;
+	border-radius: 5px;
+	margin-bottom: 5px;
+	}
+	.btn1 {
+		color: white;	
+		padding: 15px 20px;
+		font-size:14px;
+		border: none;
+		background-color: #ffcc00;
+		cursor: pointer;
+	}
+	.btn1:hover{
+		background-color: rgb(41, 128, 0);
+	  }
+    </style>
+<body>
+    <!-----MENU SECTION------>
+<div class="main-panel">
+    <div >
+      <div class="width-33 logo">Port<span class="span-col">folio</span>
+      </div>
+      <div class="width-66">
+        <nav>
+          <a href="#">
+            <span class="span-col">Home</span>
+          </a>
+          <a href="#">About me</a>          
+          <a href="#">My Services</a>
+          <a href="#">Portfolio</a>
+          <a href="#">Projects</a>
+          <a href="#">Contact</a>
+        </nav>
+      </div>
+    </div>
+    <!------MAIN BANNERR------>
+ <div class="container ">
+    <div class="width-50">
+      <div class="banner-section">
+        <h1 class="col"> Hi, I'am</h1>
+        <h1> EGOBI GABRIEL
+        </h1>
+        <h2> - I'm a passionate front-end web developer from Nigeria.</h2><br>
+        <p> I design and develop experiences that make people's live simpler through Web. I work with HTML5, CSS3, JavaScript, React and ReactNative.</p>
+        <a href="#">
+            <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="#">
+            <i class="fa-brands fa-square-x-twitter"></i>
+        </a>
+        <a href="#">
+            <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="#">
+            <i class="fa-brands fa-square-instagram"></i>
+        </a>
+        <a href="#">
+            <i class="fa-brands fa-square-github"></i>
+        </a>
+      </div>
+      <button class="btn2">LEARN MORE</button>
+    </div>
+    <div class="width-50">
+      <img src="./image/gabbb1.jpg" height="550px" width="550px">
+    </div>
+  </div>
+ </div>
+ <!------ABOUT US SECTION------>
+ <div class="main-section bg-lightgrey">
+    <div class="container">
+      <div class="width-50">
+        <img src="./image/gabbb1.jpg" height="580px" width="550px">
+      </div>
+      <div class="width-50">
+         <div class="about-me"><br><br><br>
+          <h2 class="heading-text">About Me</h2>
+          <h3 class="h3">I am available for Frondend Website Development</h3>
+          <p>Hello World! I'm Egobi Gabriel, a Front-End Web Developer based out of Nigeria. I love combining worlds of logic and creative design to make eye-catching, accessable, and user friendly websites and applications.</p>
+          <p>Technology leads, society follows. The move towards increasing inclusivity amd diversity in the industry through representation is of importance to me.</p>
+          <p>I'm exicted to make the leap and continue refining my skills with the right company. Drop me a line and/or you favourite restourant in Nigeria in the contact below or check me on at any of my socails.</p>
+          <button class="btn">LEARN MORE</button><br><br><br>
+         </div>
+        </div>        
+    </div>    
+</div> 
+<!-- our servive section -->
+<section class="services">
+  <div class="container"><br>
+  <h1 class="services-head">Our Services</h1><br>
+  <p>All your digital needs... covered.</p>
+  <div class="card-grid">
+  <div class="card">
+  <img src="./image/graphic.jpg" height="100px" width="110px">
+  <h2>Graphic Desgin</h2>
+  <p>Our designer use the latest versions of all the top design software to provide cutting-edge services. Our tools icludes Photoshop, Ollustrator, Affinity Designer, Procreate, Affinity Photo and more.</p>
+  <button class="btn">READ MORE</button>
+  </div>
+  <div class="card">
+  <img src="./image/www.jpg" height="90px" width="100px"><br>
+  <h2>Web Development</h2>
+  <p>Our web Development company has a team of skilled front-end developers who can bring any design idea into reality.We work with JavaScript frameworks such as React , Vue, Angular, etc.</p>
+  <button class="btn">READ MORE</button>
+  </div>
+  <div class="card">
+  <img src="./image/writting.jpg" height="90px" width="100px">
+  <h2>Content Writing</h2>
+  <p>Our content writting services have helped our clients achieve significant traffic, revenue, and leads. We have attained high ranking for competitive national and international keywords in various industries. We can do the same for you.</p>
+  <button class="btn">READ MORE</button>
+  </div>
+  </div>
+  </div>
+  </section> <br><br>
+  <!-- footer section -->
+  <footer>
+    <div class="row primary">
+      <div class="column about">
+        <div class="width-333"><h1>Port<span class="span-col">folio</span></h1>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae,
+          voluptatem corporis error non, Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat reprehenderit nobis nihil odio quo libero, quae saepe et porro veritatis numquam illo magnam! Impedit quidem eius itaque. Omnis quibusdam doloremque sit cumque veritatis id cum suscipit, sed illum esse aut.
+        </p>
+      </div>
+    <div class="column">
+      <h3>feedback</h3><br>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus, est.</p><br>
+      <ul>
+         <li><a href="#"><i class="fa-solid fa-location-dot"></i>32A Salvation Street, Ojo, Lagos.</a></li>
+         <li><a href="#"><i class="fa-solid fa-envelope"></i>egobi10@gmail.com</a></li>
+         <li><a href="#"><i class="fa-solid fa-phone"></i>08130221744</a></li>         
+      </ul>
+   </div>
+   <div class="column">
+       <h3>contact Us</h3><br>
+       <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Our Service</a></li>
+          <li><a href="#">Meet The Team</a></li>
+          <li><a href="#">Contact Us</a></li>
+       </ul>
+    </div>
+
+    <div class="column">
+          <h3>Thank You</h3><br>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, maxime!</p><br>
+          <div>
+            <input type="email" name="" id="" placeholder="your Email id here" required>
+            <button class="btn1" type="submit"></i>Sign Up</button>
+          </div>
+          
+      </div>
+    </div>
+  </footer>
+</div> 
+</body>
+</html>
